@@ -1,5 +1,5 @@
 # yangrtc
-Yang  Real-Time Communication，自己实现的视音频应用的API。  
+Yang  Real-Time Communication，针对行业应用实现的视音频应用的API。  
 1、实现了h264、h265的软件和硬件编解码。  
 2、实现了Opus、Aac、Speex、Mp3等音频编解码。  
 3、实现了音频的AEC、AGC、ANS及声音合成等处理。  
@@ -7,5 +7,6 @@ Yang  Real-Time Communication，自己实现的视音频应用的API。
 5、实现了h264、h265的mp4和flv录制。  
 6、实现了屏幕共享与控制。  
 7、实现了声音和图像多种处理。  
+8、专业摄像头的云台控制与多镜头导播切换。
 yangrtc 可支持视频会议、高清录播直播等多种视音频应用，可用于远程教育、远程医疗、协同办公、直播互动等。  
 第三方类库为动态调用，编译时不依赖第三方类库包。
