@@ -21,6 +21,7 @@ public:
     virtual YangVideoBuffer* getVideoBuffer(int uid)=0;
     virtual vector<YangVideoBuffer*>* getDecoderVideoBuffers()=0;
     virtual void change(int st)=0;
+    virtual int sendHeartbeat()=0;
 	int m_state;
 	YangMeetingContext *m_ini;
 };

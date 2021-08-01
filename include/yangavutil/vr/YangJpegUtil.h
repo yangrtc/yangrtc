@@ -10,7 +10,7 @@
 
 #include "stdio.h"
 //#include "stdlib.h"
-#ifdef __WIN32__
+#ifdef _WIN32
 #include <Windows.h>
 #define HAVE_BOOLEAN
 #endif
@@ -37,7 +37,7 @@ private:
 	YangLoadLib m_lib;
 	void loadLib();
 	void unloadLib();
-	//jpeg_CreateCompress
+        //jpeg_CreateCompress
 	void (*yang_jpeg_CreateCompress)(j_compress_ptr cinfo, int version,
 	                                 size_t structsize);
 	void (*yang_jpeg_CreateDecompress)(j_decompress_ptr cinfo, int version,
@@ -61,7 +61,7 @@ private:
 	                                        JDIMENSION num_lines);
 	void (*yang_jpeg_finish_compress)(j_compress_ptr cinfo);
 	void (*yang_jpeg_destroy_compress)(j_compress_ptr cinfo);
-	struct jpeg_error_mgr * (*yang_jpeg_std_error)(struct jpeg_error_mgr *err);
+        struct jpeg_error_mgr * (*yang_jpeg_std_error)(struct jpeg_error_mgr *err);
 };
 #endif
 //#endif /* YANGJPEGUTIL_H_ */
