@@ -1,4 +1,5 @@
 ## Yangrtc Overview
+近期代码更新在 https://github.com/yangrtc/yangwebrtc  
 Yang Real-Time Communication，专业级的行业视音频应用的SDK。   
 yangrtc是一个自主研发的支持Webrtc/Srt/Rtmp的rtc架构，包含多种视音频编解码和处理等。  
 
@@ -6,7 +7,7 @@ yangrtc是一个自主研发的支持Webrtc/Srt/Rtmp的rtc架构，包含多种�
  可用于远程教育、远程医疗、指挥调度、安防监控、影视录播、协同办公、直播互动等多种行业应用。  
 webrtc支持为自主研发，非谷歌lib,兼容webrtc协议 ,可与谷歌Lib和浏览器互通  
 支持Linux/Windows操作系统
-  
+
 ### 目录功能  
 yangmeeting 视频会议  
 yangrecord 高清录播直播系统    
