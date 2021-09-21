@@ -1,5 +1,5 @@
 ## Yangrtc Overview
-近期代码更新在 https://github.com/yangrtc/yangwebrtc  
+ 
 Yang Real-Time Communication，专业级的行业视音频应用的SDK。   
 yangrtc是一个自主研发的支持Webrtc/Srt/Rtmp的rtc架构，包含多种视音频编解码和处理等。  
 
