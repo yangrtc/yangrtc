@@ -49,3 +49,6 @@ webrtc支持为自主研发，非谷歌lib,兼容webrtc协议 ,可与谷歌Lib�
 1、传输加密改为国密加密，修改srtp支持国密。    
 2、实现10位、16位全链路打通，从采集、编码、传输、解码、播放这些环节全部支持10位。  
 
+### 视频会议编译
+
+https://github.com/yangrtc/yangwebrtc/wiki/YangMeeting-Getting-Started
